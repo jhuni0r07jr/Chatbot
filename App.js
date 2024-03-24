@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       output.innerHTML += `<div><strong>Você:</strong> ${userMessage}</div>`;
       userInput.value = "";
   
-      // Simular resposta do chatbot (pode ser adaptado para respostas dinâmicas)
+      // Simular resposta do chatbot.
       setTimeout(function() {
         output.innerHTML += `<div><strong>Bot:</strong> Olá! Como posso ajudá-lo?</div>`;
         output.innerHTML += `<div><strong>Bot:</strong> Faturas</div>`;
@@ -20,6 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
 /*      setTimeout(function() {
         window.location.href = "http://127.0.0.1:5500/index.html";
       }, 2000);*/
-      
+
     });
 });  
